@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: sumo_user
+      POSTGRES_PASSWORD: sumo_pass
+      POSTGRES_DB: sumo_db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ./backend
+    container_name: sumo_backend
+    restart: always
+    environment:
+      DATABASE_URL: postgres://sumo_user:sumo_pass@db:5432/sumo_db
+    depends_on:
+      - db
+    ports:
+      - "3001:3001"
+
+  frontend:
+    build: ./frontend
+    container_name: sumo_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:

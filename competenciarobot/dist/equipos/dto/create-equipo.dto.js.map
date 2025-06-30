@@ -1,0 +1,1 @@
+{"version":3,"file":"create-equipo.dto.js","sourceRoot":"","sources":["../../../src/equipos/dto/create-equipo.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAAuC;AACvC,6CAA8C;AAE9C,MAAa,eAAe;IAI1B,KAAK,CAAkB;CACxB;AALD,0CAKC;AADC;IAFC,IAAA,qBAAW,EAAC,EAAE,IAAI,EAAE,CAAC,MAAM,EAAE,MAAM,CAAC,EAAE,CAAC;IACvC,IAAA,sBAAI,EAAC,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;;8CACA"}

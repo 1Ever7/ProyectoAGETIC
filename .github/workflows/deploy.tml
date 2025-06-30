@@ -1,0 +1,45 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositorio
+      uses: actions/checkout@v3
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20
+
+    - name: Instalar dependencias backend
+      run: |
+        cd backend
+        npm install
+
+    - name: Ejecutar pruebas backend
+      run: |
+        cd backend
+        npm run test
+
+    - name: Instalar dependencias frontend
+      run: |
+        cd frontend
+        npm install
+
+    - name: Ejecutar pruebas frontend
+      run: |
+        cd frontend
+        npm run test
+
+    - name: Construir imágenes Docker
+      run: docker-compose build
+
+    - name: Subir imágenes a DockerHub (opcional)
+      if: success()
+      run: echo "Aquí puedes agregar login y push a DockerHub"

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/pasanriasAGETIC/compenteciarobot-frontend/src/app/dashboard/layout.tsx"],"sourcesContent":["// src/app/dashboard/participantes/layout.tsx\r\n\r\nimport React from 'react';\r\n\r\nexport default function ParticipantesLayout({ children }: { children: React.ReactNode }) {\r\n  return <>{children}</>;\r\n}\r\n"],"names":[],"mappings":"AAAA,6CAA6C;;;;;;AAI9B,SAAS,oBAAoB,EAAE,QAAQ,EAAiC;IACrF,qBAAO;kBAAG;;AACZ","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///D:/pasanriasAGETIC/compenteciarobot-frontend/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

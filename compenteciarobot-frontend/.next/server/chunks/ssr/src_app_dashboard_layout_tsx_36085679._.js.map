@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/pasanriasAGETIC/compenteciarobot-frontend/src/app/dashboard/layout.tsx"],"sourcesContent":["// app/dashboard/layout.tsx\r\n'use client';\r\n\r\nimport AppBarWithDrawer from '@/components/Drawer';\r\n\r\nexport default function DashboardLayout({ children }: { children: React.ReactNode }) {\r\n  return (\r\n    <>\r\n      <AppBarWithDrawer />\r\n      <main style={{ padding: 24, marginTop: 64, marginLeft: 240 }}>\r\n        {children}\r\n      </main>\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,2BAA2B;;;;;AAG3B;AAFA;;;AAIe,SAAS,gBAAgB,EAAE,QAAQ,EAAiC;IACjF,qBACE;;0BACE,8OAAC,4HAAA,CAAA,UAAgB;;;;;0BACjB,8OAAC;gBAAK,OAAO;oBAAE,SAAS;oBAAI,WAAW;oBAAI,YAAY;gBAAI;0BACxD;;;;;;;;AAIT","debugId":null}}]
+}
