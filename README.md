@@ -29,11 +29,6 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 | Frontend      | NextJS 15, MUI    |
 | DevOps        | Docker, GitLab CI |
 
-## 📩 Entrega
+![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/practicaAGETIC.png)
 
-- Repositorios en GitLab separados (frontend y backend)
-- README.md y INSTALL.md incluidos
-- Acceso dado al usuario `desarrollo.de.software.rrhh` como Maintainer
-- Todos los commits con nombre y correo del postulante
 
-> ⏰ Fecha límite: Domingo 29 de Junio de 2025 hasta las 23:59:59
