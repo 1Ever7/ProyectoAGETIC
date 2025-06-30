@@ -29,6 +29,12 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 | Frontend      | NextJS 15, MUI    |
 | DevOps        | Docker, GitLab CI |
 
+Logica de backen
 ![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/practicaAGETIC.png)
+
+Logica de Frontend
+
+![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/frontend13.png)
+
 
 
