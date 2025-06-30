@@ -22,6 +22,8 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 - Registro de puntos por ronda y equipo
 - Selección automática de clasificados por puntaje
 - Consulta de resultados (público)
+### Estructura de la base de datos
+![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/img/base%20de%20datos1.png)
 
 ## 📊 Tecnologías Usadas
 
