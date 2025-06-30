@@ -9,6 +9,9 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 - **Frontend:** NextJS 15 + MUI
 - **Backend:** NestJS 10 + TypeORM + PostgreSQL
 
+![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/CRUD.png)
+
+
 ### Funcionalidades Principales
 
 - Autenticación y autorización de usuarios
