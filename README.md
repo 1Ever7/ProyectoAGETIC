@@ -9,7 +9,7 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 - **Frontend:** NextJS 15 + MUI
 - **Backend:** NestJS 10 + TypeORM + PostgreSQL
 
-![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/img/CRUD.png)
+![Vista previa](/img/CRUD.png)
 
 
 ### Funcionalidades Principales
