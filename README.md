@@ -23,7 +23,7 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 - Selección automática de clasificados por puntaje
 - Consulta de resultados (público)
 ### Estructura de la base de datos
-![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/img/base%20de%20datos1.png)
+![Vista previa](/main/img/base%20de%20datos1.png)
 
 ## 📊 Tecnologías Usadas
 
@@ -35,11 +35,11 @@ Este sistema fue desarrollado como parte de una prueba técnica para la gestión
 | DevOps        | Docker, GitLab CI |
 
 Logica de backen
-![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/img/practicaAGETIC.png)
+![Vista previa](/main/img/practicaAGETIC.png)
 
 Logica de Frontend
 
-![Vista previa](https://github.com/1Ever7/ProyectoAGETIC/blob/main/img/frontend13.png)
+![Vista previa](/main/img/frontend13.png)
 
 
 
